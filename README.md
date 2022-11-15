@@ -17,10 +17,16 @@ Use Cyverse password
 * Am I really 'installing' it? It just sits in a folder
 
 ![](./images/metashape1.png)
+
+* Licensing Metashape is done by putting these two files directly into the 'metashape-pro' folder. The lic files are pointing to a license server in UITS. I think we have 20 metashape pro license. 
+
 ![](./images/metashape2.png)
 
-
-
+## Transfer a file from local machine to remote machine such as gpu06 or gpu07
+* I needed to copy the license files from my local machine to gpu06
+sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/arizona.edu-primary.lic jgillan@gpu06.cyverse.org:/opt/metashape-pro
+* Make sure you have read/write/execute permissions for the home folder and for the destination folder. If not, you will get ‘Permission denied’. 
+  ** Change permissions with 'chmod' command
 
 ## Connecting to gpu06 or gpu07 with graphical remote desktop
 * Gpu06 & 07 do not have desktops so we can’t remote into them.
