@@ -13,3 +13,15 @@ Use Cyverse password
 
 ![](./images/ssh_screenshot.png)
 
+## Connecting to gpu06 or gpu07 with graphical remote desktop
+* Gpu06 & 07 do not have desktops so we can’t remote into them.
+* Instead, you can create a container on gpu06 with desktop and software
+** Connect to gpu06 with ssh (shown above) in a local terminal
+** Once in gpu06, you are going to start a Docker container which should contain metashape and other dependencies
+
+export DISPLAY=:0
+xinit &
+docker run --gpus all --rm -it -p 9876:9876 -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY -e XAUTHORITY -e QT_X11_NO_MITSHM=1 -e NVIDIA_DRIVER_CAPABILITIES=all harbor.cyverse.org/vice/xpra/cudagl:20.04
+
+You can view the docker container in the local machine web browser
+http://gpu06.cyverse.org:9876/
