@@ -37,3 +37,5 @@ http://gpu06.cyverse.org:9876/
 * We are using the ‘Exosphere’ interface for Jetstream2
 
 ![](./images/jetstream2_a.png)
+
+![](./images/jetstream2_b.png)
