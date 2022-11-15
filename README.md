@@ -44,3 +44,6 @@ http://gpu06.cyverse.org:9876/
 * You can choose different sizes (cores, GPUs) of VM instances
 * 'Shelving' an instance means it is not using any resources of our allocation. If VMs are up and running, they are using allocation.
 
+![](./images/jetstream2_c.png)
+
+
