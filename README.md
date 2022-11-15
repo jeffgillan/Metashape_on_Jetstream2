@@ -26,6 +26,15 @@ Use Cyverse password
 * I needed to copy the license files from my local machine to gpu06 <br />
 <br />
 sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/arizona.edu-primary.lic jgillan@gpu06.cyverse.org:/opt/metashape-pro 
+
+
+
+
+
+
+
+
+
 * Make sure you have read/write/execute permissions for the home folder and for the destination folder. If not, you will get ‘Permission denied’. 
 * Change permissions with 'chmod' command
 
