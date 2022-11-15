@@ -27,6 +27,7 @@ You can view the docker container in the local machine web browser
 http://gpu06.cyverse.org:9876/
 
 ## Jetstream2 Notes
+![](./images/Jetstream2_logo.png)
 * Jetstream2 is a supercomputer cluster based at University of Indiana. Only NSF funded researchers and affiliates get access.
 
 * To get access, you must have a login with ACCESS (https://access-ci.org/; formally called Xcede)
