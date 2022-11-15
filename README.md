@@ -16,6 +16,11 @@ Use Cyverse password
 ## Installation location for Metashape on Linux machines
 * Am I really 'installing' it? It just sits in a folder
 
+![](./images/metashape1.png)
+![](./images/metashape2.png)
+
+
+
 
 ## Connecting to gpu06 or gpu07 with graphical remote desktop
 * Gpu06 & 07 do not have desktops so we can’t remote into them.
