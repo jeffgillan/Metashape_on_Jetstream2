@@ -36,6 +36,8 @@ http://gpu06.cyverse.org:9876/
 
 * We are using the ‘Exosphere’ interface for Jetstream2
 
+
+
 ![](./images/jetstream2_a.png)
 
 ![](./images/jetstream2_b.png)
@@ -43,7 +45,11 @@ http://gpu06.cyverse.org:9876/
 * An Instance is a virtual machine (VM)
 * You can choose different sizes (cores, GPUs) of VM instances
 * 'Shelving' an instance means it is not using any resources of our allocation. If VMs are up and running, they are using allocation.
+* ofo-dev-03 and ofo-dev-05 have a 5TB shared volume mounted at /mnt/ofo-share-01
+* The public IP addresses can be used to remote into the VMs using ssh on the command line 
+* For example, ssh exouser@149.165.169.140
+
 
 ![](./images/jetstream2_c.png)
-
+* 
 
