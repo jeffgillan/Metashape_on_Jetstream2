@@ -39,3 +39,8 @@ http://gpu06.cyverse.org:9876/
 ![](./images/jetstream2_a.png)
 
 ![](./images/jetstream2_b.png)
+
+* An Instance is a virtual machine (VM)
+* You can choose different sizes (cores, GPUs) of VM instances
+* 'Shelving' an instance means it is not using any resources of our allocation. If VMs are up and running, they are using allocation.
+
