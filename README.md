@@ -13,6 +13,10 @@ Use Cyverse password
 
 ![](./images/ssh_screenshot.png)
 
+## Installation location for Metashape on Linux machines
+* Am I really 'installing' it? It just sits in a folder
+
+
 ## Connecting to gpu06 or gpu07 with graphical remote desktop
 * Gpu06 & 07 do not have desktops so we can’t remote into them.
 * Instead, you can create a container on gpu06 with desktop and software
@@ -51,5 +55,6 @@ http://gpu06.cyverse.org:9876/
 
 
 ![](./images/jetstream2_c.png)
-* 
+
+
 
