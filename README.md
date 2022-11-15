@@ -35,3 +35,5 @@ http://gpu06.cyverse.org:9876/
 * Jetstream login location: https://jetstream-cloud.org/
 
 * We are using the ‘Exosphere’ interface for Jetstream2
+
+![](./images/jetstream2_a.png)
