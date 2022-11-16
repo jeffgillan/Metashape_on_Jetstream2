@@ -38,6 +38,12 @@ sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/ariz
 <br />
 <br />
 
+## Move drone images from local machine to gpu06
+sudo rsync -a -e "ssh -p1657" /media/jgillan/7a593008-f9d4-48b8-aece-6fb637b5b0bc/jeffs_stuff/Black_mypassport_1.8TB/Smith_vanLeeuwen_work/RainMan/drone_imagery/100_0019/ jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery
+<br />
+
+* The trailing'/' means copy the contents of the directory, but not the directory itself
+
 ## Connecting to gpu06 or gpu07 with graphical remote desktop
 * Gpu06 & 07 do not have desktops so we can’t remote into them.
 * Instead, you can create a container on gpu06 with desktop and software
