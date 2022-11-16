@@ -32,7 +32,7 @@ Use Cyverse password
 sudo wget https://s3-eu-west-1.amazonaws.com/download.agisoft.com/Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
 <br />
 
-pip install Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
+pip install Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl <br />
 I do not know if I did this correct. The terminal said it installed, but where exactly?
 
 ## Transfer a file from local machine to remote machine such as gpu06 or gpu07
