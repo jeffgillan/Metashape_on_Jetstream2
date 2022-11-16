@@ -89,12 +89,10 @@ http://gpu06.cyverse.org:9876/
 ### Start the processing node on gpu06
 * ssh into the processing node machine (gpu06) and open a terminal
 
-    cd /opt/metashape-pro
-    <br />
-    sudo ./metashape --node --host 128.196.38.28 --root ??????
-<br />
+cd /opt/metashape-pro
 
-<br />
+sudo ./metashape --node --host 128.196.38.28 --root ??????
+
 <br />
 
 ## Jetstream2 Notes
