@@ -29,10 +29,10 @@ Use Cyverse password
 <br />
 
 ## Downloading and Installing Metashape Python API Module
-sudo wget https://s3-eu-west-1.amazonaws.com/download.agisoft.com/Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
+    sudo wget https://s3-eu-west-1.amazonaws.com/download.agisoft.com/Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
 <br />
 
-    pip install Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl <br />
+    pip install Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl 
 <br />
 
 I do not know if I did this correct. The terminal said it installed, but where exactly?
@@ -42,7 +42,7 @@ I do not know if I did this correct. The terminal said it installed, but where e
 ## Transfer a file from local machine to remote machine such as gpu06 or gpu07
 * I needed to copy the license files from my local machine to gpu06. In a terminal, use the 'rsync' command to transfer between machines <br />
 <br />
-sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/arizona.edu-primary.lic jgillan@gpu06.cyverse.org:/opt/metashape-pro <br />
+    sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/arizona.edu-primary.lic jgillan@gpu06.cyverse.org:/opt/metashape-pro <br />
 <br />
 
 * Make sure you have read/write/execute permissions for the home folder and for the destination folder. If not, you will get ‘Permission denied’. 
@@ -51,7 +51,7 @@ sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/ariz
 <br />
 
 ## Move drone images from local machine to gpu06
-sudo rsync -a -e "ssh -p1657" /media/jgillan/7a593008-f9d4-48b8-aece-6fb637b5b0bc/jeffs_stuff/Black_mypassport_1.8TB/Smith_vanLeeuwen_work/RainMan/drone_imagery/100_0019/ jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery
+    sudo rsync -a -e "ssh -p1657" /media/jgillan/7a593008-f9d4-48b8-aece-6fb637b5b0bc/jeffs_stuff/Black_mypassport_1.8TB/Smith_vanLeeuwen_work/RainMan/drone_imagery/100_0019/ jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery
 <br />
 
 * The trailing'/' means copy the contents of the directory, but not the directory itself
@@ -62,7 +62,7 @@ sudo rsync -a -e "ssh -p1657" /media/jgillan/7a593008-f9d4-48b8-aece-6fb637b5b0b
 * Connect to gpu06 with ssh (shown above) in a local terminal
 * Once in gpu06, you are going to start a Docker container which should contain metashape and other dependencies
 
-export DISPLAY=:0
+    export DISPLAY=:0
 xinit &
 docker run --gpus all --rm -it -p 9876:9876 -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY -e XAUTHORITY -e QT_X11_NO_MITSHM=1 -e NVIDIA_DRIVER_CAPABILITIES=all harbor.cyverse.org/vice/xpra/cudagl:20.04
 
@@ -83,7 +83,7 @@ http://gpu06.cyverse.org:9876/
 ### Start the server instance in server mode
 * Open a terminal on the server machine 
 <br />
-cd /opt/metashape-pro_1_8_4_amd64/metashape-pro <br />
+    cd /opt/metashape-pro_1_8_4_amd64/metashape-pro <br />
 <br />
 
 ./metashape.sh --server --host 128.196.38.28
@@ -91,9 +91,9 @@ cd /opt/metashape-pro_1_8_4_amd64/metashape-pro <br />
 ### Start the processing node on gpu06
 * ssh into the processing node machine (gpu06) and open a terminal
 <br />
-cd /opt/metashape-pro <br />
+    cd /opt/metashape-pro <br />
 <br />
-sudo ./metashape --node --host 128.196.38.28 --root ??????
+    sudo ./metashape --node --host 128.196.38.28 --root ??????
 
 
 <br />
