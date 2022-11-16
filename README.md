@@ -72,6 +72,23 @@ http://gpu06.cyverse.org:9876/
 <br />
 <br />
 
+## Agisoft Metashape Network Processing
+* The server instance of Metashape will be the local linux machine (e.g., TysonsBox). This coordinates the processing jobs but does not actually do any processing
+* 'Processing nodes' will be gpu06 and gpu07
+* A 'client' is the Agisoft Network Monitor. 
+* Imagery storage for now is at: jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery
+* To use more than one 'processing node' there needs to be a storage that is shared between gpu06 and gpu07
+
+### Start the server instance in server mode
+* Open a terminal on the server machine 
+<br />
+
+cd /opt/metashape-pro_1_8_4_amd64/metashape-pro
+<br />
+
+./metashape.sh --server --host 128.196.38.28:1657
+
+
 ## Jetstream2 Notes
 ![](./images/Jetstream2_logo.png)
 * Jetstream2 is a supercomputer cluster based at University of Indiana. Only NSF funded researchers and affiliates get access.
