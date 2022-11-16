@@ -12,7 +12,8 @@ ssh jgillan@gpu07.cyverse.org -p1657  or ssh jgillan@128.196.254.89 -p1657
 Use Cyverse password
 
 ![](./images/ssh_screenshot.png)
-
+<br />
+<br />
 ## Installation location for Metashape on Linux machines
 * Am I really 'installing' it? It just sits in a folder
 
