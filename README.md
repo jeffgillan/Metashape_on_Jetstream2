@@ -36,6 +36,8 @@ pip install Metashape-1.8.4-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl <br />
 <br />
 
 I do not know if I did this correct. The terminal said it installed, but where exactly?
+<br />
+<br />
 
 ## Transfer a file from local machine to remote machine such as gpu06 or gpu07
 * I needed to copy the license files from my local machine to gpu06. In a terminal, use the 'rsync' command to transfer between machines <br />
