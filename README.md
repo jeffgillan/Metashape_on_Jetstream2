@@ -73,6 +73,7 @@ http://gpu06.cyverse.org:9876/
 <br />
 
 ## Agisoft Metashape Network Processing
+* Read the Metashape user manual here: https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf
 * The server instance of Metashape will be the local linux machine (e.g., TysonsBox). This coordinates the processing jobs but does not actually do any processing
 * 'Processing nodes' will be gpu06 and gpu07
 * A 'client' is the Agisoft Network Monitor. 
