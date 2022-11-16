@@ -23,7 +23,7 @@ Use Cyverse password
 ![](./images/metashape2.png)
 
 ## Transfer a file from local machine to remote machine such as gpu06 or gpu07
-* I needed to copy the license files from my local machine to gpu06 <br />
+* I needed to copy the license files from my local machine to gpu06. In a terminal, use the 'rsync' command to transfer between machines <br />
 <br />
 sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/arizona.edu-primary.lic jgillan@gpu06.cyverse.org:/opt/metashape-pro <br />
 <br />
