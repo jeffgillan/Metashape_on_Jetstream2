@@ -15,7 +15,8 @@ Use Cyverse password
 <br />
 <br />
 ## Installation location for Metashape on Linux machines
-* Am I really 'installing' it? It just sits in a folder
+* Find the linux version of Metashape here: https://agisoft.freshdesk.com/support/solutions/articles/31000160235-how-to-install-agisoft-metashape
+* Instead of installing it, it just sits in a folder
 
 ![](./images/metashape1.png)
 
