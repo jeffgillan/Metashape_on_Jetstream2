@@ -93,7 +93,7 @@ cd /opt/metashape-pro_1_8_4_amd64/metashape-pro <br />
 <br />
 cd /opt/metashape-pro <br />
 <br />
-metashape --node --host 128.196.38.28 --root ??????
+sudo ./metashape --node --host 128.196.38.28 --root ??????
 
 
 <br />
