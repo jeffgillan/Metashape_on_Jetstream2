@@ -37,11 +37,12 @@ sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/ariz
 * Change permissions with 'chmod' command
 <br />
 <br />
+
 ## Connecting to gpu06 or gpu07 with graphical remote desktop
 * Gpu06 & 07 do not have desktops so we can’t remote into them.
 * Instead, you can create a container on gpu06 with desktop and software
-Connect to gpu06 with ssh (shown above) in a local terminal
-Once in gpu06, you are going to start a Docker container which should contain metashape and other dependencies
+* Connect to gpu06 with ssh (shown above) in a local terminal
+* Once in gpu06, you are going to start a Docker container which should contain metashape and other dependencies
 
 export DISPLAY=:0
 xinit &
