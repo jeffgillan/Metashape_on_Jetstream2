@@ -81,6 +81,7 @@ http://gpu06.cyverse.org:9876/
 
 ### Start the server instance in server mode
 * Open a terminal on the server machine 
+
     cd /opt/metashape-pro_1_8_4_amd64/metashape-pro
     ./metashape.sh --server --host 128.196.38.28
 
