@@ -19,11 +19,14 @@ Use Cyverse password
 * Instead of installing it, it just sits in the 'opt' folder
 
 ![](./images/metashape1.png)
-
+<br />
+<br />
+## Licensing Metashape
 * Licensing Metashape is done by putting these two files directly into the 'metashape-pro' folder. The lic files are pointing to a license server in UITS. I think we have 20 metashape pro license. 
 
 ![](./images/metashape2.png)
-
+<br />
+<br />
 ## Transfer a file from local machine to remote machine such as gpu06 or gpu07
 * I needed to copy the license files from my local machine to gpu06. In a terminal, use the 'rsync' command to transfer between machines <br />
 <br />
@@ -32,7 +35,8 @@ sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/ariz
 
 * Make sure you have read/write/execute permissions for the home folder and for the destination folder. If not, you will get ‘Permission denied’. 
 * Change permissions with 'chmod' command
-
+<br />
+<br />
 ## Connecting to gpu06 or gpu07 with graphical remote desktop
 * Gpu06 & 07 do not have desktops so we can’t remote into them.
 * Instead, you can create a container on gpu06 with desktop and software
@@ -45,6 +49,9 @@ docker run --gpus all --rm -it -p 9876:9876 -v /tmp/.X11-unix:/tmp/.X11-unix -e 
 
 You can view the docker container in the local machine web browser
 http://gpu06.cyverse.org:9876/
+<br />
+<br />
+<br />
 
 ## Jetstream2 Notes
 ![](./images/Jetstream2_logo.png)
