@@ -92,7 +92,7 @@ cd /opt/metashape-pro_1_8_4_amd64/metashape-pro
 * ssh into the processing node machine (gpu06) and open a terminal
 <br />
 cd /opt/metashape-pro
-<br />
+metashape --node --host 128.196.38.28 --root ??????
 
 
 <br />
