@@ -49,6 +49,11 @@ I do not know if I did this correct. The terminal said it installed, but where e
 <br />
 <br />
 
+## Remote mount between local machine and remote machine
+
+    sudo sshfs -o allow_other,default_permissions jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery -p1657 /mnt/drone_imagery
+
+
 ## Move drone images from local machine to gpu06
     sudo rsync -a -e "ssh -p1657" /media/jgillan/7a593008-f9d4-48b8-aece-6fb637b5b0bc/jeffs_stuff/Black_mypassport_1.8TB/Smith_vanLeeuwen_work/RainMan/drone_imagery/100_0019/jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery
 <br />
