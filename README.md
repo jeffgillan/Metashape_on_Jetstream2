@@ -104,6 +104,7 @@ sudo ./metashape --node --host 128.196.38.28:5840 -- platform offscreen --root ?
 * Open the Agisoft network monitor
 ```
 cd /opt/metashape-pro
+
 ./monitor.sh
 ```
 * Input the IP address of the server instance (e.g., 18.196.38.28 for local linux) 
