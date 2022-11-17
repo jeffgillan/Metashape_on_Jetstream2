@@ -99,6 +99,13 @@ cd /opt/metashape-pro
     
 sudo ./metashape --node --host 128.196.38.28:5840 -- platform offscreen --root ??????
 ```
+
+### Check status of network connections
+* Open the Agisoft network monitor
+```
+gillan@TysonsBox:/opt/metashape-pro$ ./monitor.sh
+```
+
 <br />
 
 ## Jetstream2 Notes
