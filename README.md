@@ -86,10 +86,11 @@ http://gpu06.cyverse.org:9876/
 
 ### Start the server instance in server mode
 * Open a terminal on the server machine 
-
-    cd /opt/metashape-pro
+```
+cd /opt/metashape-pro
    
-    ./metashape.sh --server --host 128.196.38.28:5840
+./metashape.sh --server --host 128.196.38.28:5840
+```
 
 ### Start the processing node on gpu06
 * ssh into the processing node machine (gpu06) and open a terminal
