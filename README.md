@@ -65,11 +65,11 @@ I do not know if I did this correct. The terminal said it installed, but where e
 * Instead, you can create a container on gpu06 with desktop and software
 * Connect to gpu06 with ssh (shown above) in a local terminal
 * Once in gpu06, you are going to start a Docker container which should contain metashape and other dependencies
-
+```
     export DISPLAY=:0
     xinit &
     docker run --gpus all --rm -it -p 9876:9876 -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY -e XAUTHORITY -e QT_X11_NO_MITSHM=1 -e         NVIDIA_DRIVER_CAPABILITIES=all harbor.cyverse.org/vice/xpra/cudagl:20.04
-
+```
 You can view the docker container in the local machine web browser
 http://gpu06.cyverse.org:9876/
 <br />
@@ -94,11 +94,11 @@ cd /opt/metashape-pro
 
 ### Start the processing node on gpu06
 * ssh into the processing node machine (gpu06) and open a terminal
-
-    cd /opt/metashape-pro
+```
+cd /opt/metashape-pro
     
-    sudo ./metashape --node --host 128.196.38.28:5840 -- platform offscreen --root ??????
-
+sudo ./metashape --node --host 128.196.38.28:5840 -- platform offscreen --root ??????
+```
 <br />
 
 ## Jetstream2 Notes
