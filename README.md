@@ -51,7 +51,7 @@ sudo rsync -a -e "ssh -p 1657" /opt/metashape-pro_1_8_4_amd64/metashape-pro/ariz
 
 ## Remote mount between local machine and remote machine
 
-    sudo sshfs -o allow_other jgillan@gpu06.cyverse.org:/home/jgillan/drone_imagery -p1657 /mnt/drone_imagery
+    sudo sshfs -o allow_other jgillan@gpu06.cyverse.org:/mnt/drone_imagery -p1657 /mnt/drone_imagery
 
 
 ## Move drone images from local machine to gpu06
