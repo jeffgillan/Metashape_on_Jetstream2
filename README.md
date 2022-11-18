@@ -97,7 +97,7 @@ cd /opt/metashape-pro
 ```
 cd /opt/metashape-pro
     
-sudo ./metashape --node --host 128.196.38.28:5840 -- platform offscreen --root /mnt/drone_imagery
+sudo ./metashape --node --host 128.196.38.28:5840 --platform offscreen --root /mnt/drone_imagery
 ```
 
 ### Check status of network connections
