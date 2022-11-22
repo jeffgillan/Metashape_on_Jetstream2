@@ -107,7 +107,7 @@ cd /opt/metashape-pro
 
 ./monitor.sh
 ```
-* Input the IP address of the server instance (e.g., 18.196.38.28 for local linux) 
+* Input the IP address of the server instance (e.g., 128.196.38.28 for local linux) 
 * Port is 5840 (default)
 * Press `Connect` button
 
