@@ -114,6 +114,8 @@ cd /opt/metashape-pro
 ![](./images/metashape3.png)
 
 <br />
+I was able to make the network processing work when I made gpu06 the server node, and local machine the processing node. 
+
 
 ## Jetstream2 Notes
 ![](./images/Jetstream2_logo.png)
