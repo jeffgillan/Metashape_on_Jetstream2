@@ -28,8 +28,24 @@ These are my ongoing notes on doing networked photogrammetry processing with Agi
 
 ## Network Processing Test
 For a simple test I started two virtual machines, one was a small CPU machine, and the other a small GPU machine. Both VMs had Metashape 1.8.4 (/opt/metashape-pro). Each instance has a Metashape license (arizona.edu-primary.lic) located at /opt/metashape-pro. 
+
+### Start the server instance in server mode
+* Open the guacole desktop for the cpu VM
+* Open a terminal and type these commands. The string of numbers after '--host' is the internal IP address of the cpu VM. This address will vary for every instance. 
+```
+cd /opt/metashape-pro
+   
+./metashape.sh --server --host 128.196.38.28:5840
+```
+
 <br />
 <br />
+<br />
+<br />
+
+
+
+
 ## Remotely connecting to in-house resources gpu06 and gpu07
 Gpu06 & gpu07 are high performance linux servers location in UITS on UA campus. They each have 2 x Nvidia GTX 1080 gpu processors. 
 
