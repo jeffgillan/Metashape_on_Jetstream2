@@ -1,6 +1,33 @@
 # Metashape_on_Jetstream2
 These are my ongoing notes on doing networked photogrammetry processing with Agisoft Metashape on Jetstream2.
 
+## Jetstream2 Notes
+![](./images/Jetstream2_logo.png)
+* Jetstream2 is a supercomputer cluster based at University of Indiana. Only NSF funded researchers and affiliates get access.
+
+* To get access, you must have a login with ACCESS (https://access-ci.org/; formally called Xcede)
+
+* Jetstream login location: https://jetstream-cloud.org/
+
+* We are using the ‘Exosphere’ interface for Jetstream2
+
+
+
+![](./images/jetstream2_a.png)
+
+![](./images/jetstream2_b.png)
+
+* An Instance is a virtual machine (VM)
+* You can choose different sizes (cores, GPUs) of VM instances
+* 'Shelving' an instance means it is not using any resources of our allocation. If VMs are up and running, they are using allocation.
+* ofo-dev-03 and ofo-dev-05 have a 5TB shared volume mounted at /mnt/ofo-share-01
+* The public IP addresses can be used to remote into the VMs using ssh on the command line 
+* For example, ssh exouser@149.165.169.140
+
+
+![](./images/jetstream2_c.png)
+
+
 ## Remotely connecting to in-house resources gpu06 and gpu07
 Gpu06 & gpu07 are high performance linux servers location in UITS on UA campus. They each have 2 x Nvidia GTX 1080 gpu processors. 
 
@@ -117,31 +144,6 @@ cd /opt/metashape-pro
 I was able to make the network processing work when I made gpu06 the server node, and local machine the processing node. 
 
 
-## Jetstream2 Notes
-![](./images/Jetstream2_logo.png)
-* Jetstream2 is a supercomputer cluster based at University of Indiana. Only NSF funded researchers and affiliates get access.
-
-* To get access, you must have a login with ACCESS (https://access-ci.org/; formally called Xcede)
-
-* Jetstream login location: https://jetstream-cloud.org/
-
-* We are using the ‘Exosphere’ interface for Jetstream2
-
-
-
-![](./images/jetstream2_a.png)
-
-![](./images/jetstream2_b.png)
-
-* An Instance is a virtual machine (VM)
-* You can choose different sizes (cores, GPUs) of VM instances
-* 'Shelving' an instance means it is not using any resources of our allocation. If VMs are up and running, they are using allocation.
-* ofo-dev-03 and ofo-dev-05 have a 5TB shared volume mounted at /mnt/ofo-share-01
-* The public IP addresses can be used to remote into the VMs using ssh on the command line 
-* For example, ssh exouser@149.165.169.140
-
-
-![](./images/jetstream2_c.png)
 
 
 
