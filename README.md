@@ -1,7 +1,6 @@
 # Metashape_on_Jetstream2
 These are my ongoing notes on doing networked photogrammetry processing with Agisoft Metashape on Jetstream2.
 
-## Jetstream2 Notes
 ![](./images/Jetstream2_logo.png)
 * Jetstream2 is a supercomputer cluster based at University of Indiana. Only NSF funded researchers and affiliates get access.
 
