@@ -26,7 +26,10 @@ These are my ongoing notes on doing networked photogrammetry processing with Agi
 
 ![](./images/jetstream2_c.png)
 
-
+## Metashape Network Processing on Jetstream2
+Blah blah blah 
+<br />
+<br />
 ## Remotely connecting to in-house resources gpu06 and gpu07
 Gpu06 & gpu07 are high performance linux servers location in UITS on UA campus. They each have 2 x Nvidia GTX 1080 gpu processors. 
 
