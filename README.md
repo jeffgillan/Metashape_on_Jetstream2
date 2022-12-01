@@ -26,8 +26,8 @@ These are my ongoing notes on doing networked photogrammetry processing with Agi
 
 ![](./images/jetstream2_c.png)
 
-## Metashape Network Processing on Jetstream2
-Blah blah blah 
+## Network Processing Test
+For a simple test I started two virtual machines, one was a small CPU machine, and the other a small GPU machine. Both VMs had Metashape 1.8.4 (/opt/metashape-pro). Each instance has a Metashape license (arizona.edu-primary.lic) located at /opt/metashape-pro. 
 <br />
 <br />
 ## Remotely connecting to in-house resources gpu06 and gpu07
