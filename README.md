@@ -69,6 +69,18 @@ cd /opt/metashape-pro
 cd /opt/metashape-pro
 ./metashape.sh
 ```
+* In the Metashape GUI, open the GPU Preferences tab
+* Make sure there is a GPU device and it is checked
+![](./images/metashape_GPU_preference.png)
+
+* In Network Preferences tab, fill out the information just like you did for the server instance. The host is the pubic IP address of the server instance. 
+![](./images/Network_processing_preferences.png)
+
+
+
+
+
+
 
 <br />
 <br />
