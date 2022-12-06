@@ -42,6 +42,24 @@ cd /opt/metashape-pro
 ./metashape.sh --server --host 10.0.205.199
 ```
 ![](./images/metashape_start_server.png)
+
+### Set Network Processing Preferences in Metashape GUI
+* Open a new terminal window and launch the Metashape GUI
+```
+cd /opt/metashape-pro
+ 
+./metashape.sh 
+```
+* Navigate to and open the Network Preferences tab
+* Check 'Enable network processing'
+* Type in the Host name: this the is Public IP address (not the internal) of the VM.
+* Port is 5840
+* Root is the path to the shared directory. This is the location of the benchmark imagery dataset. 
+```
+/mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark/dataset
+```
+
+
 <br />
 <br />
 <br />
