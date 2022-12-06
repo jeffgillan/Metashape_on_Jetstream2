@@ -58,7 +58,7 @@ cd /opt/metashape-pro
 ```
 /mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark/dataset
 ```
-
+![](./images/Network_processing_preferences.png)
 
 <br />
 <br />
