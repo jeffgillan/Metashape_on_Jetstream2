@@ -78,8 +78,16 @@ cd /opt/metashape-pro
 
 ![](./images/Network_processing_preferences.png)
 
+* You can close the Metashape GUI on the 'processing node' instance.
 
+### Start the processing node in node mode
+* Open a terminal on desktop of the GPU VM
+* Launch a metashape node
 
+```
+cd /opt/metashape-pro
+./metashape.sh --node --host 149.165.171.36:5840 --root /mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark-dataset
+```
 
 
 
