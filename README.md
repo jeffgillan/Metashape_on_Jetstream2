@@ -117,12 +117,13 @@ cd /opt/metashape-pro
 * Within the Metashape GUI, start a photogrammetry process such as 'Align Photos'. Yes of course you want to process over network!
 ![](./images/align_photos.png) ![](./images/process_over_network.png) 
 
+* If the network processing is successful, you should see indicators in the Metashape GUI (i.e., no failures). Check the monitor to see how your processing job is going!
+
+![](./images/network_monitor_nodes.png)
 
 
-<br />
-<br />
-<br />
-<br />
+
+
 
 
 
