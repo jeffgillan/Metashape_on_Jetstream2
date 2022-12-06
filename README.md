@@ -37,7 +37,7 @@ For a simple test of network processing, we can start three virtual machines on 
 ```
 cd /opt/metashape-pro
    
-./metashape.sh --server --host 128.196.38.28:5840
+./metashape.sh --server --host 10.0.205.199
 ```
 
 <br />
