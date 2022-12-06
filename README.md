@@ -70,6 +70,7 @@ cd /opt/metashape-pro
 ```
 * Type in the Host name. This should be the public IP address of the server instance (aka the cpu VM). Press the Connect button. There should be an indication that the monitor is now communicating with the server instance. 
 
+![](./images/network_monitor.png)
 
 ### Set Network and GPU Preferences on GPU VMs
 * These instructions will be the same for the both GPU processing nodes ('Jeff_test_GPU' and 'GPU_test_Jeff2')
