@@ -60,6 +60,17 @@ cd /opt/metashape-pro
 ```
 ![](./images/Network_processing_preferences.png)
 
+### Launch Network Monitor
+* Open a new terminal tab (on the cpu VM) and launch the monitor
+
+```
+cd /opt/metashape-pro
+ 
+./monitor.sh 
+```
+* Type in the Host name. This should be the public IP address of the server instance (aka the cpu VM). Press the Connect button. There should be an indication that the monitor is now communicating with the server instance. 
+
+
 ### Set Network and GPU Preferences on GPU VMs
 * These instructions will be the same for the both GPU processing nodes ('Jeff_test_GPU' and 'GPU_test_Jeff2')
 * Open the guacole desktop for a GPU VM 
@@ -90,7 +101,7 @@ cd /opt/metashape-pro
 ```
 ![](./images/node_launch.png)
 
-* There are several other flags you can add to this launch command. They include the ability to designate the processing nodes as CPU or GPU, assign priorities to the nodes, and enable/disable GPU devices with a mask. I don't totally understand the GPU mask yet. 
+* There are several other flags you can add to this launch command. They include the ability to designate the processing nodes as CPU or GPU, assign priorities to the nodes, and enable/disable GPU devices with a mask. I don't totally understand the GPU mask yet. Consult the instruction manual https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf.
 
 <br />
 <br />
