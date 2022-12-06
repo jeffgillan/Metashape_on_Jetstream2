@@ -110,7 +110,13 @@ cd /opt/metashape-pro
 
 ### Open a .psx file in Metashape GUI and Launch Photogrammetry Processes
 * Go back to the Metashape GUI that is launched from the cpu VM. 
-* Open an existing project .psx file. I have one located on the shared drive ```/mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark-dataset/network_test.psx```
+* Open an existing project .psx file. I have one located on the shared drive ```/mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark-dataset/network_test.psx``` I'm not sure if projects need to be saved on shared drive, but probably. 
+
+![](./images/psx_project.png)
+
+
+
+
 
 <br />
 <br />
