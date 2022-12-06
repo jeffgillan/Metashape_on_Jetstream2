@@ -59,7 +59,7 @@ cd /opt/metashape-pro
 /mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark/dataset
 ```
 ![](./images/Network_processing_preferences.png)
-* You can this GUI open and running, we will come back to it later. 
+* You can leave this GUI open and running, we will come back to it later. 
 
 ### Launch Network Monitor
 * Open a new terminal tab (on the cpu VM) and launch the monitor
