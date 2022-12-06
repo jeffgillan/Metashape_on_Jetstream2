@@ -27,7 +27,7 @@ These are my ongoing notes on doing networked photogrammetry processing with Agi
 ![](./images/jetstream2_c.png)
 
 ## Network Processing with Exosphere
-The following methods describe how to start network processing across multiple VMs through the Exosphere interface of Jetstream2. It guides users through starting 'server' and 'processing nodes' and executes Metashape processes through the Metashape graphical user interface. This is used to prove the concept of network processing and understand how multiple VMs are communicating with one another. Real operations of network processing need to be developed with calls to the Python API instead of using the Metashape GUI. 
+The following methods describe how to start network processing across multiple VMs through the Exosphere interface of Jetstream2. It guides users through starting 'server' and 'processing nodes' and executes Metashape processes through the Metashape graphical user interface. This is used to prove the concept of network processing and understand how multiple VMs are communicating with one another. Real operations of network processing need to be developed with calls to the Python API instead of using the Metashape GUI. Documentation of Metashape network processing is found in the user manual here: https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf. Check out Chapter 8 Distributed Processing (starting on page 150)
 
 For a simple test of network processing, we can start three virtual machines on Jetstream2. One will be a small CPU machine (server), and the other two will be small GPU machines (processing nodes). You can use 'dev-claire' as the CPU server instance. Use 'Jeff_test_GPU' and 'GPU_test_Jeff2' for the GPU processing nodes. 
 
@@ -59,6 +59,16 @@ cd /opt/metashape-pro
 /mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark/dataset
 ```
 ![](./images/Network_processing_preferences.png)
+
+### Set Network and GPU Preferences on GPU VMs
+* These instructions will be the same for the both GPU processing nodes ('Jeff_test_GPU' and 'GPU_test_Jeff2')
+* Open the guacole desktop for a GPU VM 
+* Open a terminal and launch the Metashape GUI
+
+```
+cd /opt/metashape-pro
+./metashape.sh
+```
 
 <br />
 <br />
