@@ -41,7 +41,7 @@ cd /opt/metashape-pro
    
 ./metashape.sh --server --host 10.0.205.199
 ```
-
+![](./images/metashape_start_server.png)
 <br />
 <br />
 <br />
