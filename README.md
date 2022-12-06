@@ -114,7 +114,8 @@ cd /opt/metashape-pro
 
 ![](./images/psx_project.png)
 
-
+* Within the Metashape GUI, start a photogrammetry process such as 'Align Photos'. Yes of course you want to process over network!
+![](./images/align_photos.png) ![](./images/process_over_network.png) 
 
 
 
