@@ -88,9 +88,9 @@ cd /opt/metashape-pro
 cd /opt/metashape-pro
 ./metashape.sh --node --host 149.165.171.36:5840 --root /mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark-dataset
 ```
+![](./images/node_launch.png)
 
-
-
+* There are several other flags you can add to this launch command. They include the ability to designate the processing nodes as CPU or GPU, assign priorities to the nodes, and enable/disable GPU devices with a mask. I don't totally understand the GPU mask yet. 
 
 <br />
 <br />
