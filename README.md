@@ -26,13 +26,15 @@ These are my ongoing notes on doing networked photogrammetry processing with Agi
 
 ![](./images/jetstream2_c.png)
 
-## Network Processing Exosphere GUI
+## Network Processing with Exosphere
 The following methods describe how to start network processing across multiple VMs through the Exosphere interface of Jetstream2. It guides users through starting 'server' and 'processing nodes' and executes Metashape processes through the Metashape graphical user interface. This is used to prove the concept of network processing and understand how multiple VMs are communicating with one another. Real operations of network processing need to be developed with calls to the Python API instead of using the Metashape GUI. 
 
-For a simple test of network processing, we can start three virtual machines on Jetstream2. One will be a small CPU machine (server), and the other two will be small GPU machines (processing nodes). Each VM instance needs to have Metashape 1.8.4 at ```/opt/metashape-pro```. Additionally, each instance needs has a Metashape license (arizona.edu-primary.lic) located at ```/opt/metashape-pro```. 
+For a simple test of network processing, we can start three virtual machines on Jetstream2. One will be a small CPU machine (server), and the other two will be small GPU machines (processing nodes). You can use 'dev-claire' as the CPU server instance. Use 'Jeff_test_GPU' and 'GPU_test_Jeff2' for the GPU processing nodes. 
+
+Each VM instance needs to have Metashape 1.8.4 at ```/opt/metashape-pro```. Additionally, each instance needs a Metashape license (arizona.edu-primary.lic) located at ```/opt/metashape-pro```. 
 
 ### Start the server instance in server mode
-* Open the guacole desktop for the cpu VM
+* Open the guacole desktop for the cpu VM (dev-claire)
 * Open a terminal and type these commands. The string of numbers after '--host' is the internal IP address of the cpu VM. This address will vary for every instance. 
 ```
 cd /opt/metashape-pro
