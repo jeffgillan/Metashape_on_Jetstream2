@@ -59,6 +59,7 @@ cd /opt/metashape-pro
 /mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark/dataset
 ```
 ![](./images/Network_processing_preferences.png)
+* You can this GUI open and running, we will come back to it later. 
 
 ### Launch Network Monitor
 * Open a new terminal tab (on the cpu VM) and launch the monitor
@@ -103,6 +104,13 @@ cd /opt/metashape-pro
 ![](./images/node_launch.png)
 
 * There are several other flags you can add to this launch command. They include the ability to designate the processing nodes as CPU or GPU, assign priorities to the nodes, and enable/disable GPU devices with a mask. I don't totally understand the GPU mask yet. Consult the instruction manual https://www.agisoft.com/pdf/metashape-pro_1_8_en.pdf.
+
+* To make sure the node is connected and communicating with the server, check the Network Monitor (this should still be running on the cpu VM)
+* You should see a connection from one of the GPU VMs (jeff_test_GPU, gpu_test_jeff2)
+
+### Open a .psx file in Metashape GUI and Launch Photogrammetry Processes
+* Go back to the Metashape GUI that is launched from the cpu VM. 
+* Open an existing project .psx file. I have one located on the shared drive ```/mnt/ofo-share-01/jetstream-benchmark/jetstream2-benchmark-dataset/network_test.psx```
 
 <br />
 <br />
